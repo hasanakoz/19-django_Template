@@ -13,6 +13,6 @@ def home(request):
 
     }
 
-    return render(request, 'home.html', context)
+    return render(request, 'students/home.html', context)
 
     # return HttpResponse('<h1> Hello </h1>')
